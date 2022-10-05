@@ -1,0 +1,62 @@
+.right-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100vh;
+  padding: 3% 15% 3% 16.7%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #002e6e;
+  background-position: right 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  /* padding: 7%; */
+  height: 100vh;
+}
+/* #googlesignin {
+  width: 100vh;
+} */
+.login-link {
+  position: absolute;
+  top: 7%;
+  right: 7%;
+  font-size: 22px;
+  font-weight: bold;
+}
+.login-link > a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px solid rgb(40, 211, 154);
+  margin-left: 5px;
+}
+.create-account-step-block > span.title {
+  display: block;
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+.sign-in {
+  background-color: #fff !important;
+  font-size: 33px;
+  margin: 2px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* .g-signin {
+  width: 300px;
+} */
+.logo {
+  width: "243px";
+  height: "81px";
+}
+#divCreateAccountForm {
+  color: #002e6e;
+  font-weight: 500;
+}
+.userlist {
+  overflow-y: scroll;
+}
